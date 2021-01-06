@@ -172,13 +172,10 @@ section{
 .images-area{
     background-image: url(../img/Group_33094_1.png);
     background-repeat:no-repeat;
+    background-size: cover;
     height: 150px;
     margin:80px 300px;
     border-radius:20px;
-    -webkit-border-radius:20px;
-    -moz-border-radius:20px;
-    -ms-border-radius:20px;
-    -o-border-radius:20px;
 }
 h2.inquiry {
     margin-top: 61px;
