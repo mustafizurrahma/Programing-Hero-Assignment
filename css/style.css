@@ -1,0 +1,242 @@
+body{
+    margin:0px;
+    padding:0px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+/*=============================================
+=  Header Arae Section Design In css Start    =
+=============================================*/
+
+.navbar .menu-bar ul{
+    float:right;
+    margin-right: 5%;
+}
+.navbar .menu-bar ul li {
+    list-style-type: none;
+    float: left;
+    padding: 10px 30px;
+}
+.navbar .menu-bar ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight:bold;
+    text-transform: uppercase;
+}
+.navbar .menu-bar ul li a:hover{
+    color: orange;
+}
+h1{
+    font-size: 45px;
+}
+.welcome{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+.color{
+    color: orange;
+    margin-bottom: 15px;
+}
+section{
+    height: 500px;
+}
+.bg-img{
+    background-image: url(../img/top-banner.png);
+    background-repeat:no-repeat;
+    padding:20px;
+    overflow: hidden;
+}
+.half-width {
+    width: 42%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.half-width img {
+    width: 85%;
+    height: auto;
+}
+.half-width p {
+    text-transform: capitalize;
+    font-family: 'Fira Sans', sans-serif;
+    line-height: 27px;
+    word-spacing: 2px;
+    text-align: justify;
+}
+.half-width .button{
+    text-decoration: none;
+    color: #fff;
+    padding:10px 45px;
+    background-image: linear-gradient(45deg, orange, tomato);
+    font-weight:900;
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+}
+
+.half-width .button:hover{
+    background-image: linear-gradient(50deg, tomato,orange);
+}
+
+/*=====   Header Arae Section Design In css End  ======*/
+
+
+
+/*=============================================
+=  About Arae Section Design In css Start    =
+=============================================*/
+.about-section {
+    background-color: cornsilk;
+    padding:20px;
+}
+
+.about {
+    color: orange;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.right-content p{
+    text-align: justify;
+    
+}
+.right-content .about-button{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding:13px 67px;
+    background-image: linear-gradient(45deg, orange, tomato);
+    font-weight:900;
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+}
+
+.right-content .about-button:hover{
+    background-image: linear-gradient(50deg, tomato,orange);
+}
+.left-img .img{
+    width: 85%;
+    margin-top: 50px;
+}
+/*=====   About Arae Section Design In css End  ======*/
+
+
+/*=============================================
+=  Portfolio Arae Section Design In css Start    =
+=============================================*/
+.new-work {
+    width: 300px;
+    -webkit-box-shadow: -1px 4px 29px 0px rgba(48, 55, 78, 0.61);
+    -moz-box-shadow: -1px 4px 29px 0px rgba(48, 55, 78, 0.61);
+    box-shadow: -1px 4px 29px 0px rgba(48, 55, 78, 0.61);
+    padding: 19px;
+    float: left;
+    margin-right: 35px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.new-work img {
+    width: 250px;
+    padding: 15px;
+}
+.main-title {
+    text-align: center;
+}
+.portfolio-area {
+    margin-left: 4%;
+}
+.box-area {
+    padding: 40px;
+}
+.main-title h2 {
+    font-size: 30px;
+}
+.main-title h2 span {
+    color: orange;
+}
+/*===== Portfolio Arae Section Design In css End ======*/
+
+/*=============================================
+=  Just Images Arae Section Design In css Start    =
+=============================================*/
+.images-area{
+    background-image: url(../img/Group_33094_1.png);
+    background-repeat:no-repeat;
+    height: 150px;
+    margin:80px 300px;
+    border-radius:20px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
+}
+h2.inquiry {
+    margin-top: 61px;
+    margin-left: 14px;
+    color: #ffff;
+    text-transform: uppercase;
+    font-size: 26px;
+    padding: 0px 6px;
+}
+.livechat a{
+    margin-left: 201px;
+    color: #ffffff;
+    font-weight: bold;
+    background-image: linear-gradient(50deg, tomato,orange);
+    padding: 6px 7px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.footer-top h2 {
+    display: inline-block;
+}
+
+/*=====Just Images Arae Section Design In css End ======*/
+
+
+/*=============================================
+=  Footer Arae Section Design In css Start    =
+=============================================*/
+.padding1{
+    padding: 65px 0px;
+}
+.padding1 .title{
+    text-align: center;
+}
+.padding1 .title h3{
+    color: #696871;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.icon{
+    float: left;
+    margin-left: 455px;
+}
+.icon img {
+    width: 55px;
+    box-shadow: -1px 4px 29px 0px rgba(48, 55, 78, 0.61);
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.copyright {
+    text-align: center;
+    padding: 20px 0px;
+    text-transform: capitalize;
+    color: blueviolet;
+    font-weight: bold;
+}
+.copyright p span{
+    color: orange;
+}
+/*===== Footer Arae Section Design In css End ======*/
